@@ -1,0 +1,17 @@
+<h1>Scraping App</h1>
+<button id="scrape">Scrape</button>
+
+<table>
+	<thead>
+		<th>Rank</th>
+		<th>Name</th>
+	</thead>
+	<tbody>
+		{{#each players}}
+			<tr>
+				<td>{{ranking}}</td>
+				<td>{{name}}</td>
+			</tr>
+		{{/each}}
+	</tbody>
+</table>
